@@ -1,0 +1,103 @@
+/* Write some CSS below */
+body {
+font-family:Open Sans, sans-serif;
+font-size: 18px;
+background-color: rgb(230, 230, 230);
+color: rgb(30, 30, 30);
+margin: 0px;
+
+ }
+
+ h1 {
+  font-family: Homemade apple, cursive;
+  font-size: 50px;
+ }
+
+ h2 {
+  font-family: Oswald, sans-serif;
+  font-size: 30px;
+  font-style: bold;
+  text-transform: uppercase;
+ }
+
+h3 {
+  font-family: Open Sans, sans-serif;
+  font-size: 20px;
+  font-style: bold;
+  text-transform: uppercase;
+ }
+
+ h4 {
+  font-family: Open Sans, sans-serif;
+  font-size: 18px;
+ }
+
+ a {
+  text-decoration : none;
+ }
+
+ .banner{
+  background-image: url(images/banner.jpg);
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+  color: white;
+  padding: 100px 0px;
+
+ }
+
+  .btn {
+  background-color: transparent;
+  padding: 20px 45px;
+  color: #F7B944;
+  font-size: 16px;
+  border: 4px;
+  border-color: #F7B944 #F7B944 #F7B944 #F7B944;
+  }
+
+  .btn: hover {
+  opacity: 0.8;
+  }
+
+  .container {
+    width: 900px;
+    margin:  auto;
+  }
+
+.card-white img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+  	text-align: center;
+  	color: white;
+}
+
+.card-white{
+    background-color: white ;
+    text-align : center;
+    width: 220px;
+    padding: 20px;
+    margin-bottom: 4px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+
+.video{
+  padding: 24px 400px;
+}
+
+  .footer{
+  	background-color: black;
+  	text-align: center;
+  	padding: 16px;
+  	margin-top: 16px;
+  	color: white;
+  }
+
+  .cards{
+  	display: grid;
+  	grid-template-columns: 1fr 1fr 1fr;
+  	grid-gap: 16px;
+  }
